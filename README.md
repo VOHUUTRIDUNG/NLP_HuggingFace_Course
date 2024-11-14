@@ -14,5 +14,20 @@ My notes on learning NLP HuggingFace course!
 -------------------------------------------------------------------------------------
 
 ## Chapter 1 - Transformer models
-1, Working with pipelines:
+### Working with pipelines:
 - The most basic object in the 🤗 Transformers library is the pipeline() function. It connects a model with its necessary preprocessing and postprocessing steps, allowing us to directly input any text and get an intelligible answer.
+- There are three main steps involved when you pass some text to a pipeline:
+  1. The text is preprocessed into a format the model can understand.
+  2. The preprocessed inputs are passed to the model.
+  3. The predictions of the model are post-processed, so you can make sense of them.
+- Some of the currently available pipelines are:
+  1. feature-extraction (get the vector representation of a text)
+  2. fill-mask
+  3. ner (named entity recognition)
+  4. question-answering
+  5. sentiment-analysis
+  6. summarization
+  7. text-generation
+  8. translation
+  9. zero-shot-classification
+
