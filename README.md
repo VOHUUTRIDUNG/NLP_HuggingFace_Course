@@ -1,5 +1,5 @@
 # NLP_HuggingFace_Course
-My notes on learning NLP HuggingFace course
+My notes on learning NLP HuggingFace course!
 ## Table of Contents
 - [Chapter 1. Transformer models](#chapter-1---transformer-models)
 - [Chapter 2. Using 🤗 Transformers](#chapter-2---using--transformers)
@@ -14,3 +14,5 @@ My notes on learning NLP HuggingFace course
 -------------------------------------------------------------------------------------
 
 ## Chapter 1 - Transformer models
+1, Working with pipelines:
+- The most basic object in the 🤗 Transformers library is the pipeline() function. It connects a model with its necessary preprocessing and postprocessing steps, allowing us to directly input any text and get an intelligible answer.
