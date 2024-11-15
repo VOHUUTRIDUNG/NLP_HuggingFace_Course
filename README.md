@@ -33,6 +33,16 @@ My notes on learning NLP HuggingFace course!
 - You can see basic use of pipelines [here](working-with-pipelines.ipynb)
 
 ## Chapter 2 - Using 🤗 Transformers
+### Behind the pipeline
+- The pipeline groups together three steps: preprocessing, passing the inputs through the model, and postprocessing:
+![pipeline](images/pipeline.svg)
+#### Preprocessing with a tokenizer
+- Like other neural networks, Transformer models can’t process raw text directly, so the first step of our pipeline is to convert the text inputs into numbers that the model can make sense of. To do this we use a tokenizer, which will be responsible for:
+  1. Splitting the input into words, subwords, or symbols (like punctuation) that are called tokens
+  2. Mapping each token to an integer
+  3. Adding additional inputs that may be useful to the model
+#### Going through the model
+
 
 
 
