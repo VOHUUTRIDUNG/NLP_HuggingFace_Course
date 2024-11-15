@@ -32,4 +32,7 @@ My notes on learning NLP HuggingFace course!
   9. zero-shot-classification
 - You can see basic use of pipelines [here](working-with-pipelines.ipynb)
 
+## Chapter 2 - Using 🤗 Transformers
+
+
 
