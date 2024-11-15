@@ -52,6 +52,14 @@ My notes on learning NLP HuggingFace course!
 ## Chapter 6 - The 🤗 Tokenizers library
 
 ## Chapter 7 - Main NLP tasks
+- Common NLP tasks:
+  - Token classification
+  - Masked language modeling (like BERT)
+  - Summarization
+  - Translation
+  - Causal language modeling pretraining (like GPT-2)
+  - Question answering
+
 
 ## Chapter 8 - How to ask for help
 
